@@ -15,3 +15,11 @@ testWebP(function (support) {
 		document.querySelector('body').classList.add('no-webp');
 	}
 });
+
+
+$(document).ready(function () {
+	$('.header__burger').click(function (e) {
+		$('.header__burger,.header__menu,.nav__item').toggleClass('active')
+		$('body').toggleClass('lock')
+	});
+});
