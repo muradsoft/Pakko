@@ -410,7 +410,7 @@ body {
 }
 
 .tarif-item-01 .tarif-header {
-  background-image: url("/img/tarif-01.svg");
+  background-image: url("../img/tarif-01.svg");
 }
 
 .tarif-item-01 .tarif-footer {
@@ -422,7 +422,7 @@ body {
 }
 
 .tarif-item-02 .tarif-header {
-  background-image: url("/img/tarif-02.svg");
+  background-image: url("../img/tarif-02.svg");
 }
 
 .tarif-item-02 .tarif-info__title {
